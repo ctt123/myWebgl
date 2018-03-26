@@ -41,7 +41,7 @@ function draw() {
                 ctx.beginPath();
                 ctx.moveTo(r,0);
                 for(var i=0;i<9;i++) {
-                    ctx.rotate(Math.PI / 5);
+                    ctx.rotate(Math.PI / 5);//旋转36度
                     if(i%2==0) {
                         ctx.lineTo((r / 0.525731) * 0.200811, 0);
                     }else{
